@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Cache control -->
+    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate, max-age=10000" />
+    <meta http-equiv="Pragma" content="no-cache must-revalidate" />
+    <!-- <meta http-equiv="Expires" content="0" /> -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="style/common.css">
+    <link rel="stylesheet" href="style/details.css">
+    <link rel="script" href="script/common.js">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style/common.css">
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet">
+
+    <link rel="stylesheet" href="plugins/flipdown-master/dist/flipdown.min.css">
+    <script src="plugins/flipdown-master/dist/flipdown.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <script src="https://kit.fontawesome.com/68b6a34bd3.js" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="images/nutech_logo_label.svg" type="image/x-icon">
+    <link rel="icon" href="images/tab_logo.svg" type="image/x-icon">
+
+
+    <script src="https://kit.fontawesome.com/68b6a34bd3.js" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="images/nutech_logo_label.svg" type="image/x-icon">
+    <link rel="icon" href="images/tab_logo.svg" type="image/x-icon">
+
+    <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+
+
+    <title>HackNUthon | CSI | Details</title>
+</head>
+
+<body>
+
+    <div id="preloader" class="preloader-bg">
+        <div class="row h-100">
+            <div class="my-auto col-12">
+                <div class="preloader-contant">
+                    <img class="preloader-logo d-block mx-auto animated pulse infinite fast" style="opacity: 1;" src="images/logoFull.svg" alt="HackNUthon">
+                </div>
+                <div class="loader-animation mt-5">
+                    <div class='loader--dot'></div>
+                    <div class='loader--dot'></div>
+                    <div class='loader--dot'></div>
+                    <div class='loader--dot'></div>
+                    <div class='loader--dot'></div>
+                    <div class='loader--dot'></div>
+                    <div class='loader--text'></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div id="navigationbar" class="navbar fixed-top navbar-expand-lg navbar-dark">
+
+            <a id="main-logo-container" href="index.html">
+                <img id="main-logo" class="navbar-brand" src="images/logo.svg" alt="HackNUthon">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+            <div id="navbarContent" class="collapse navbar-collapse rounded">
+                <ul class="navbar-nav mx-md-auto text-center rounded">
+                    <li class="nav-item mt-3 mt-md-auto">
+                        <a href="index.html" class="nav-link nava">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#about-us" class="nav-link scroll-onclick nava">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#sponsors" class="nav-link scroll-onclick nava">Sponsor</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" id="supportDropdown" class="nav-link nava" role="button" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
+            Support
+          </a>
+                        <div class="dropdown-menu" aria-labelledby="supportDropdown">
+                            <a href="#footer" class="dropdown-item">Contact Us</a>
+                            <a href="faq.html" class="dropdown-item">FAQs</a>
+                            <a href="learning-resources.html" class="dropdown-item">Learning Resources</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li>
+                        <div class="apply-button hero-btn d-none" data-hackathon-slug="hacknuthon2021" data-button-theme="light" style="height: 44px; width: 312px"></div>
+                        <!-- <a href="https://devfolio.co/external-apply/hacknuthon2020" class="nav-link btn btn-outline-primary navbtn"><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#00afef"viewBox="0 0 115.46 123.46" style="height:24px;width:24px;margin-right:8px"><path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" /><path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"/></svg>Apply with Devfolio</a> -->
+                        <!-- <button id="devfolio-apply-now"><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff"viewBox="0 0 115.46 123.46" style="height:24px;width:24px;margin-right:8px"><path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" /><path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"/></svg>Apply with Devfolio</button> -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="intro">
+        <div class="intro-img text-center">
+            <h1 class="text-center" tabindex="-1">Details</h1>
+        </div>
+        <div class="intro-content m-md-4 m-3">
+            <h1 class="text-center py-3">What is HackNUthon?</h1>
+            <p class="p-4 text-justify">
+                Rapidly rising Innovation and Entrepreneurship in India made us organize the HackNUThon 2021, a stage to discover technologies, innovate ideas and solve various challenges. A non-stop, 36 hours long, a challenging product development competition, where
+                participants can come up with their problem statements or they will be given the problem statements for innovative solutions to the respective problems. Prizes upto Rs.30,000 for winners and get cool goodies from our partners to all participants!
+                Its gonna be an real tough challenge! Can you beat through it? If you think you can, you’re halfway there! Give it a Go!
+            </p>
+        </div>
+    </div>
+
+    <div id="themes">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="text-center title-sec d-inline-block">Tracks</h1>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="card m-5">
+                    <img src="images/greenRevoluation.jpg" alt="Green Revolution" class="img-fluid card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="font-weight-bold">Green Revolution after the pandemic</h3>
+                        <!-- <p class="text-justify pt-3">
+              Designing devices which would help in easing communication chennels between various communication devices and points
+            </p> -->
+                    </div>
+
+                    <!-- <button class="btn btn-primary mx-auto d-block my-3" data-toggle="modal" data-target="#theme-1">Problem Statements</button> -->
+
+                </div>
+
+                <!-- <div id="theme-1" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3>Green Revolution after the pandemic</h3>
+                <button class="close" data-dismiss="modal" aria-label="Close">
+                  <span> &times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h4>Suggested problem statements:</h4>
+                <ul>
+                  <li>AR/VR based travel brochures</li>
+                  <li>Network connectivity for remote locations</li>
+                </ul>
+                <p>
+                  There are just a few suggested problem statements for your refrence. We would suggest you to identify and resolve any problem you come across or feel is relevant in this domain.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div> -->
+            </div>
+
+            <div class="col-12 col-sm-6  col-lg-4">
+                <div class="card m-5">
+                    <img src="images/healthcare.jpg" alt="" class="img-fluid card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="font-weight-bold">Dealing with COVID-19 health care industry</h3>
+                        <!-- <p class="text-justify pt-3">
+              Designing devices which would help in easing communication chennels between various communication devices and points
+            </p> -->
+                    </div>
+                    <!-- <button class="btn btn-primary mx-auto d-block my-3" data-toggle="modal" data-target="#theme-2">Problem Statements</button> -->
+                </div>
+
+                <!-- <div id="theme-2" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3>Dealing with COVID-19 health care industry</h3>
+                <button class="close" data-dismiss="modal" aria-label="Close">
+                  <span> &times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h4>Suggested problem statements:</h4>
+                <ul>
+                  <li>Hospital waste management system (Detection of hazardous/radioactive waste and suggest techniques for its safe disposal)</li>
+                  <li>Management of massive amount of Patient-related Data</li>
+                </ul>
+                <p>
+                  There are just a few suggested problem statements for your refrence. We would suggest you to identify and resolve any problem you come across or feel is relevant in this domain.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div> -->
+            </div>
+
+            <div class="col-12 col-sm-6  col-lg-4">
+                <div class="card m-5">
+                    <img src="images/AgriculturalAdvancement.jpg" alt="" class="img-fluid card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="font-weight-bold">Agricultural Advancement</h3>
+                        <!-- <p class="text-justify pt-3">
+              Designing devices which would help in easing communication chennels between various communication devices and points
+            </p> -->
+                    </div>
+                    <!-- <button class="btn btn-primary mx-auto d-block my-3" data-toggle="modal" data-target="#theme-3">Problem Statements</button> -->
+                </div>
+
+                <!-- <div id="theme-3" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3>Agricultural Advancement</h3>
+                <button class="close" data-dismiss="modal" aria-label="Close">
+                  <span> &times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h4>Suggested problem statements:</h4>
+                <ul>
+                  <li>Capture moisture, temperature, fire and earthquake information  and sending alerts to the farmers </li>
+                  <li>Real time identification of crops, weeds, diseases and pest damage.</li>
+                  <li>Crop disease/pest attack prediction system based on the weather,moisture, temperature.</li>
+                </ul>
+                <p>
+                  There are just a few suggested problem statements for your refrence. We would suggest you to identify and resolve any problem you come across or feel is relevant in this domain.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div> -->
+            </div>
+
+            <div class="col-12 col-sm-6  col-lg-4">
+                <div class="card m-5">
+                    <img src="images/workFromHome.jpg" alt="" class="img-fluid card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="font-weight-bold">Increased Productivity for Remote Working Employees & Systems</h3>
+                        <!-- <p class="text-justify pt-3">
+              Designing devices which would help in easing communication chennels between various communication devices and points
+            </p> -->
+                    </div>
+                    <!-- <button class="btn btn-primary mx-auto d-block my-3" data-toggle="modal" data-target="#theme-4">Problem Statements</button> -->
+                </div>
+
+                <!-- <div id="theme-4" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3>Increased Productivity for Remote Working Employees & Systems</h3>
+                <button class="close" data-dismiss="modal" aria-label="Close">
+                  <span> &times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h4>Suggested problem statements:</h4>
+                <ul>
+                  <li>Create a single personal finance platform where the customers can view and manage all their banking details from various financial institutions like track expenses, get financial tips, perform budgeting etc</li>
+                  <li>Finding an ATM can be a challenge and some times they may not be in service. Design a solution that allows the withdrawal and deposit of cash from merchants for easier access to cash.</li>
+                  <li>Develop a solution to detect fraud by individual or compano through utilisation of collected data from various data points in a single platform</li>
+                  <li>Mobile banking for the visually impaired</li>
+                </ul>
+                <p>
+                  There are just a few suggested problem statements for your refrence. We would suggest you to identify and resolve any problem you come across or feel is relevant in this domain.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div> -->
+            </div>
+
+            <div class="col-12 col-sm-6  col-lg-4">
+                <div class="card m-5">
+                    <img src="images/EducationalAdvancements.jpg" alt="" class="img-fluid card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="font-weight-bold">Online Educational System and it's Advancements</h3>
+                        <!-- <p class="text-justify pt-3">
+              Designing devices which would help in easing communication chennels between various communication devices and points
+            </p> -->
+                    </div>
+                    <!-- <button class="btn btn-primary mx-auto d-block my-3" data-toggle="modal" data-target="#theme-5">Problem Statements</button> -->
+                </div>
+
+                <!-- <div id="theme-5" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3>Online Educational System and it's Advancements</h3>
+                <button class="close" data-dismiss="modal" aria-label="Close">
+                  <span> &times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h4>Suggested problem statements:</h4>
+                <ul>
+                  <li>
+                    Create an Intranet portal for Nirma university which can include functionalities as listed below (not limited to these only):
+                    <ul>
+                      <li>New admission induction program</li>
+                      <li>Sitemap of Nirma university</li>
+                      <li>Obtaining duplicate marksheet(s).</li>
+                      <li>Payment of fees.</li>
+                      <li>Bona-fide certificate</li>
+                      <li>Block exam fee submission</li>
+                      <li>Alumni registration and features for them to support Institute’s activities.</li>
+                      <li>Easier ticketing solution for campus events.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    Create a demo to develop a system for smart classroom energy management.
+                    <ul>
+                      <li>Manage classroom’s/lab’s electricity</li>
+                      <li>Create a smart system where lights/fan would be turned off when the room is empty</li>
+                      <li>It should manage ambient lightings</li>
+                    </ul>
+                  </li>
+                </ul>
+                <p>
+                  There are just a few suggested problem statements for your refrence. We would suggest you to identify and resolve any problem you come across or feel is relevant in this domain.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div> -->
+            </div>
+
+            <div class="col-12 col-sm-6  col-lg-4">
+                <div class="card m-5">
+                    <img src="images/blockchain.jpg" alt="" class="img-fluid card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="font-weight-bold">BlockChain</h3>
+                        <!-- <p class="text-justify pt-3">
+              Designing devices which would help in easing communication chennels between various communication devices and points
+            </p> -->
+                    </div>
+                    <!-- <button class="btn btn-primary mx-auto d-block my-3" data-toggle="modal" data-target="#theme-6">Problem Statements</button> -->
+                </div>
+
+                <!-- <div id="theme-6" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3>BlockChain</h3>
+                <button class="close" data-dismiss="modal" aria-label="Close">
+                  <span> &times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h4>Suggested problem statements:</h4>
+                <ul>
+                  <li>AR/VR based travel brochures</li>
+                  <li>Network connectivity for remote locations</li>
+                </ul>
+                <p>
+                  There are just a few suggested problem statements for your refrence. We would suggest you to identify and resolve any problem you come across or feel is relevant in this domain.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div> -->
+            </div>
+
+        </div>
+    </div>
+
+    <div id="learning-resources">
+
+    </div>
+
+    <div id="guidlines" class="p-3 p-md-4">
+        <div class="col-12 text-center">
+            <h1 class="text-center title-sec d-inline-block">Guidelines</h1>
+        </div>
+        <ul>
+            <li>A team can be of maximum 4 and minimum 2 members.</li>
+            <!-- <li>The participants can be a student affiliated to any college.</li> -->
+            <li>Profile of participants will be recorded through a form and teams will be short listed on the basis of: technical profile and the details of the idea submitted. Giving link to personal projects is optional.</li>
+            <li>Shortlisted teams will participate on the day of the hackathon and then start coding on the problem statements they had submitted in the participation form.</li>
+            <li>The identity of the participants submitted in this form will be verified on the spot. If there is any sort of anomaly in identity or credentials, then the participant will be disqualified.</li>
+            <!-- <li>Participants will be given vegetarian food and refreshments to help them code their way through the night.</li> -->
+            <!-- <li>Participants need to bring their Laptops, chargers, mobile phones, necessary hardware components for their prototype and other required accessories.</li> -->
+            <!-- <li>No participant will be allowed to leave the premises during the hackathon.</li> -->
+            <!-- <li>Basic Hardware components will be provided. Evive (electronic prototyping hardware: evive.cc) will be provided to the participants as per the availability.</li> -->
+            <li>Any misbehaviour, disrespectful behaviour, breaking of rules and regulations, defamation of any other team, trying to disturb the decorum of University or the event will lead to disqualification of the team; all the rights to do so will remain
+                in the hands of the organizers.</li>
+            <li>Participants can use any open source software but they should not violate the respective copyright of the software/s used.</li>
+        </ul>
+    </div>
+
+    <!-- <div id="apply" class="m-5 text-center">
+        <a class="btn btn-primary btn-lg d-inline-block mx-auto" href="apply.html">Apply Now</a>
+        <button id="devfolio-apply-now" class="mx-auto"><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff"viewBox="0 0 115.46 123.46" style="height:24px;width:24px;margin-right:8px"><path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" /><path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"/></svg>Apply with Devfolio</button>
+    </div> -->
+
+    <div id="apply" class="m-5 text-center">
+        <!-- <button id="devfolio-apply-now" class="hero-btn d-none m-2"><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff"viewBox="0 0 115.46 123.46" style="height:24px;width:24px;margin-right:8px"><path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" /><path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"/></svg>Apply with Devfolio</button> -->
+        <!-- <br class="d-md-none"> -->
+        <div class="apply-button hero-btn d-none" data-hackathon-slug="hacknuthon2021" data-button-theme="light" style="height: 44px; width: 312px"></div>
+        <!-- <br class="d-md-none"> -->
+        <!-- <a href="apply.html" class="hero-btn d-none nav-link btn btn-outline-primary navbtn">Apply Now</a> -->
+    </div>
+
+    <div id="loadFooter"></div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="script/common.js"></script>
+    <script src="script/details.js"></script>
+</body>
+
+</html>

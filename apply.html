@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Cache control -->
+    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate, max-age=10000" />
+    <meta http-equiv="Pragma" content="no-cache must-revalidate"/>
+    <!-- <meta http-equiv="Expires" content="0" /> -->
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="style/common.css">
+    <link rel="stylesheet" type="text/css" href="style/apply.css">
+
+    <script src="https://kit.fontawesome.com/68b6a34bd3.js" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="images/nutech_logo_label.svg" type="image/x-icon">
+    <link rel="icon" href="images/tab_logo.svg" type="image/x-icon">
+
+    <title>HackNUthon | CSI | Application Form</title>
+</head>
+<body>
+
+  <div id="preloader" class="preloader-bg">
+    <div class="row h-100">
+      <div class="my-auto col-12">
+        <div class="preloader-contant">
+          <img class="preloader-logo d-block mx-auto animated pulse infinite fast" style="opacity: 1;" src="images/logoFull.svg" alt="HackNUthon">
+        </div>
+        <div class="loader-animation mt-5">
+          <div class='loader--dot'></div>
+          <div class='loader--dot'></div>
+          <div class='loader--dot'></div>
+          <div class='loader--dot'></div>
+          <div class='loader--dot'></div>
+          <div class='loader--dot'></div>
+          <div class='loader--text'></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="loadNavbar"></div>
+  
+  <div id="title-head" class="auto-container">
+    <div class="intro-img text-center">
+      <h1 class="text-center" tabindex="-1">Registration Form</h1>
+    </div>
+  </div>
+
+  <form class="container py-3">
+    <!-- <div class="sections mb-3 rounded">
+      <p>Any missing or wrong information will lead to rejection of form.</p>
+      <p>LinkedIn and Github profile is optional, but if you provide it will help us in selection process.</p>
+    </div> -->
+
+    <div class="sections mb-3 rounded">
+      <div class="title rounded p-3" data-toggle="collapse" data-target="#team-detail">Team Detail <i class="fas fa-caret-down"></i></div>
+      <div id="team-detail" class="collapse show">
+        <div class="p-3 form-group">
+          <label for="teamName">Team Name</label>
+          <input id="teamName" name="teamName" class="form-control" type="text">
+          <small id="teamNameHelp" class="form-text text-danger"></small>
+        </div>
+        <div class="p-3 form-group">
+          <label for="clg">College Name</label>
+          <input id="clg" name="CollageName" class="form-control" type="text">
+          <small id="clgHelp" class="form-text text-danger"></small>
+        </div>
+      </div>
+    </div>
+    
+    <div class="sections mb-3 rounded">
+      <div class="title rounded p-3 col-12 collapsed" data-toggle="collapse" data-target="#mem1">Member 1 (Team Leader) <i class="fas fa-caret-down"></i></div>
+      <div id="mem1" class="form-row collapse">
+        <small class="form-text text-danger px-3">All further communication will be done with team leader only.</small>
+        <div class="p-3 form-group col-12">
+          <label for="n1">Name</label>
+          <input id="n1" name="Name1" class="form-control" type="text">
+          <small id="n1Help" class="form-text text-danger"></small>
+        </div>
+        <div class="p-3 form-group col-6">
+          <label for="mno1">Contact Number</label>
+          <input id="mno1" class="form-control" name="MNo1" type="text">
+          <small id="mno1Help" class="form-text text-danger"></small>
+        </div>
+        <div class="p-3 form-group col-6">
+          <label for="m1">Email</label>
+          <input id="m1" class="form-control" name="Email1" type="email">
+          <small id="m1Help" class="form-text text-danger"></small>
+        </div>
+        <div class="p-3 form-group col-6">
+          <label for="g1">Github Profile</label>
+          <input id="g1" class="form-control" name="Git1" type="text">
+          <small id="g1Help" class="form-text text-danger"></small>
+        </div>
+        <div class="p-3 form-group col-6">
+          <label for="l1">LinkedIn Profile</label>
+          <input id="l1" class="form-control" name="LinkedIn1" type="text">
+          <small id="l1Help" class="form-text text-danger"></small>
+        </div>
+      </div>
+    </div>
+    
+    <div class="sections mb-3 rounded">
+      <div class="title rounded p-3 col-12 collapsed" data-toggle="collapse" data-target="#mem2">Member 2 <i class="fas fa-caret-down"></i></div>
+      <div id="mem2" class="form-row collapse">
+        <div class="p-3 form-group col-12">
+          <label for="n2">Name</label>
+          <input id="n2" class="form-control" name="Name2" type="text">
+          <small id="n2Help" class="form-text text-danger"></small>
+        </div>
+        <div class="p-3 form-group col-6">
+          <label for="mno2">Contact Number</label>
+          <input id="mno2" class="form-control" name="MNo2" type="text">
+          <small id="mno2Help" class="form-text text-danger"></small>
+        </div>
+        <div class="p-3 form-group col-6">
+          <label for="m2">Email</label>
+          <input id="m2" class="form-control" name="Email2" type="email">
+          <small id="m2Help" class="form-text text-danger"></small>
+        </div>
+        <div class="p-3 form-group col-6">
+          <label for="g2">Github Profile</label>
+          <input id="g2" class="form-control" name="Git2" type="text">
+          <small id="g2Help" class="form-text text-danger"></small>
+        </div>
+        <div class="p-3 form-group col-6">
+          <label for="l2">LinkedIn Profile</label>
+          <input id="l2" class="form-control" name="LinkedIn2" type="text">
+          <small id="l2Help" class="form-text text-danger"></small>
+        </div>
+      </div>
+    </div>
+    
+    <div class="sections mb-3 rounded">
+      <div class="title rounded p-3 col-12 collapsed" data-toggle="collapse" data-target="#mem3">Member 3 <i class="fas fa-caret-down"></i></div>
+      <div id="mem3" class="form-row collapse">
+        <div class="p-3 form-group col-12">
+          <label for="n3">Name</label>
+          <input id="n3" class="form-control" name="Name3" type="text">
+          <small id="n3Help" class="form-text text-danger"></small>
+        </div>
+        <div class="p-3 form-group col-6">
+          <label for="mno3">Contact Number</label>
+          <input id="mno3" class="form-control" name="MNo3" type="text">
+          <small id="mno3Help" class="form-text text-danger"></small>
+        </div>
+        <div class="p-3 form-group col-6">
+          <label for="m3">Email</label>
+          <input id="m3" class="form-control" name="Email3" type="email">
+          <small id="m3Help" class="form-text text-danger"></small>
+        </div>
+        <div class="p-3 form-group col-6">
+          <label for="g3">Github Profile</label>
+          <input id="g3" class="form-control" name="Git3" type="text">
+          <small id="g3Help" class="form-text text-danger"></small>
+        </div>
+        <div class="p-3 form-group col-6">
+          <label for="l3">LinkedIn Profile</label>
+          <input id="l3" class="form-control" name="LinkedIn3" type="text">
+          <small id="l3Help" class="form-text text-danger"></small>
+        </div>
+      </div>
+    </div>
+    
+    <div class="sections mb-3 rounded">  
+      <div class="title rounded p-3 col-12 collapsed" data-toggle="collapse" data-target="#mem4">Member 4 <i class="fas fa-caret-down"></i></div>
+      <div id="mem4" class="form-row collapse">
+        <div class="p-3 form-group col-12">
+          <label for="n4">Name</label>
+          <input id="n4" class="form-control" name="Name4" type="text">
+          <small id="n4Help" class="form-text text-danger"></small>
+        </div>
+        <div class="p-3 form-group col-6">
+          <label for="mno4">Contact Number</label>
+          <input id="mno4" class="form-control" name="MNo4" type="text">
+          <small id="mno4Help" class="form-text text-danger"></small>
+        </div>
+        <div class="p-3 form-group col-6">
+          <label for="m4">Email</label>
+          <input id="m4" class="form-control" name="Email4" type="email">
+          <small id="m4Help" class="form-text text-danger"></small>
+        </div>
+        <div class="p-3 form-group col-6">
+          <label for="g4">Github Profile</label>
+          <input id="g4" class="form-control" name="Git4" type="text">
+          <small id="g4Help" class="form-text text-danger"></small>
+        </div>
+        <div class="p-3 form-group col-6">
+          <label for="l4">LinkedIn Profile</label>
+          <input id="l4" class="form-control" name="LinkedIn4" type="text">
+          <small id="l4Help" class="form-text text-danger"></small>
+        </div>
+      </div>
+    </div>
+    
+    <div class="sections mb-3 rounded">
+      <div class="title rounded p-3 collapsed" data-toggle="collapse" data-target="#exp-detail">Past Experience <i class="fas fa-caret-down"></i></div>
+      <div id="exp-detail" class="collapse">
+        <div class="p-3 form-group">
+          <label for="exp">Write team member's previous experience of hackthon or past projects</label>
+          <textarea id="exp" class="form-control" name="exp" cols="30" rows="5"></textarea>
+          <div class="pb-3">
+            <small id="expHelp" class="form-text text-danger d-inline"></small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sections mb-3 rounded">
+      <div class="title rounded p-3 collapsed" data-toggle="collapse" data-target="#detail-end">About Problem Statement <i class="fas fa-caret-down"></i></div>
+      <div id="detail-end" class="collapse">
+        <div class="p-3 form-group">
+          <label for="domain">Domain</label>
+          <select id="domain" class="form-control" name="domain">
+            <option>Green revolution after the pandemic</option>
+            <option>Dealing with COVID-19 health care industry</option>
+            <option>Agricultural Advancement</option>
+            <option>Increased productivity for remote working employees & systems</option>
+            <option>Online educational system and it's advancements </option>
+            <option>Miscellaneous category</option>
+          </select>
+          <small id="domainHelp" class="form-text text-danger"></small>
+        </div>
+        <div class="p-3 form-group">
+          <label for="pro">Problem Statement</label>
+          <input id="pro" class="form-control" type="text" name="problem">
+          <div>
+            <small id="proHelp" class="form-text text-danger d-inline"></small>  
+            <small class="form-text text-muted d-inline float-right">Please be elaborate</small>
+          </div>
+          
+        </div>
+        <div class="p-3 form-group">
+          <label for="sol">Proposed Solution</label>
+          <textarea id="sol" class="form-control" name="solution" cols="30" rows="5"></textarea>
+          <div class="pb-3">
+            <small id="solHelp" class="form-text text-danger d-inline"></small>
+            <small class="form-text text-muted d-inline float-right">Minimum 200 words. Be elaborate</small>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <small id="submitHelp" class="form-text text-danger pl-3 pb-1"></small>
+    <button class="btn btn-lg btn-block mx-auto" type="submit" id="submit-form">
+      <img src="images/loading.gif" alt="O" class="img-fluid submitLoading" style="height: 1.1rem; display:none;">
+      Submit
+    </button>
+  </form>
+  
+  <div id="SuccessMsg" class="p-3 m-5 rounded">
+    <h3>You are successfully Registered for HackNUthon.</h1>
+    <p>Your Registration number is <span id="regNo"></span>. Your registration number is important please take note of it.
+      <br> All further communication will be done to <span id="successEmail"></span>.</p>
+  </div>
+
+  <div id="loadFooter"></div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="script/common.js"></script>
+    <script src="script/apply.js"></script>
+</body>
+</html>

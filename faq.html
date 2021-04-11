@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Cache control -->
+    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate, max-age=10000" />
+    <meta http-equiv="Pragma" content="no-cache must-revalidate" />
+    <!-- <meta http-equiv="Expires" content="0" /> -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style/common.css">
+    <link rel="stylesheet" type="text/css" href="style/faq.css">
+
+    <script src="https://kit.fontawesome.com/68b6a34bd3.js" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="images/nutech_logo_label.svg" type="image/x-icon">
+    <link rel="icon" href="images/tab_logo.svg" type="image/x-icon">
+    <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+
+    <title>HackNUthon | CSI | FAQ</title>
+</head>
+
+<body>
+
+    <div id="preloader" class="preloader-bg">
+        <div class="row h-100">
+            <div class="my-auto col-12">
+                <div class="preloader-contant">
+                    <img class="preloader-logo d-block mx-auto animated pulse infinite fast" style="opacity: 1;" src="images/logoFull.svg" alt="HackNUthon">
+                </div>
+                <div class="loader-animation mt-5">
+                    <div class='loader--dot'></div>
+                    <div class='loader--dot'></div>
+                    <div class='loader--dot'></div>
+                    <div class='loader--dot'></div>
+                    <div class='loader--dot'></div>
+                    <div class='loader--dot'></div>
+                    <div class='loader--text'></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div id="navigationbar" class="navbar fixed-top navbar-expand-lg navbar-dark">
+
+            <a id="main-logo-container" href="index.html">
+                <img id="main-logo" class="navbar-brand" src="images/logo.svg" alt="HackNUthon">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+            <div id="navbarContent" class="collapse navbar-collapse rounded">
+                <ul class="navbar-nav mx-md-auto text-center rounded">
+                    <li class="nav-item mt-3 mt-md-auto">
+                        <a href="index.html" class="nav-link nava">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#about-us" class="nav-link scroll-onclick nava">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#sponsors" class="nav-link scroll-onclick nava">Sponsor</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" id="supportDropdown" class="nav-link nava" role="button" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
+            Support
+          </a>
+                        <div class="dropdown-menu" aria-labelledby="supportDropdown">
+                            <a href="#footer" class="dropdown-item">Contact Us</a>
+                            <a href="faq.html" class="dropdown-item">FAQs</a>
+                            <a href="learning-resources.html" class="dropdown-item">Learning Resources</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li>
+                        <div class="apply-button hero-btn d-none" data-hackathon-slug="hacknuthon2021" data-button-theme="light" style="height: 44px; width: 312px"></div>
+                        <!-- <a href="https://devfolio.co/external-apply/hacknuthon2020" class="nav-link btn btn-outline-primary navbtn"><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#00afef"viewBox="0 0 115.46 123.46" style="height:24px;width:24px;margin-right:8px"><path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" /><path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"/></svg>Apply with Devfolio</a> -->
+                        <!-- <button id="devfolio-apply-now"><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff"viewBox="0 0 115.46 123.46" style="height:24px;width:24px;margin-right:8px"><path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" /><path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"/></svg>Apply with Devfolio</button> -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="title-head" class="auto-container">
+        <div class="intro-img text-center">
+            <h1 class="text-center" tabindex="-1">Frequently Asked <br/>Questions</h1>
+        </div>
+    </div>
+
+
+    <div id="qacontainer" class="mx-md-5 mx-3 mt-4 px-4 py-3 rounded">
+
+        <div class="qa-box collapsed" data-toggle="collapse" role="button" aria-expanded="false" data-target="#a1">
+            <a class="que-box">What is the deadline for idea submission?</a>
+            <i class="fas fa-caret-down"></i>
+            <div id="a1" class="collapse ans-box">16th April, 2021 (Will be extended if required)</div>
+        </div>
+
+        <div class="qa-box collapsed" data-toggle="collapse" role="button" aria-expanded="false" data-target="#a3">
+            <a class="que-box">Can I come up with my own problem statement?</a>
+            <i class="fas fa-caret-down"></i>
+            <div id="a3" class="collapse ans-box">Yes. We encourage you to come up with your own problem statements provided they fall under the given themes.</div>
+        </div>
+
+        <div class="qa-box collapsed" data-toggle="collapse" role="button" aria-expanded="false" data-target="#a19">
+            <a class="que-box">Who can attend?</a>
+            <i class="fas fa-caret-down"></i>
+            <div id="a19" class="collapse ans-box">Anyone with an idea, interested in learning new technologies or interested in developing a new idea in general.</div>
+        </div>
+
+        <div class="qa-box collapsed" data-toggle="collapse" role="button" aria-expanded="false" data-target="#a4">
+            <a class="que-box">What is the required team size?</a>
+            <i class="fas fa-caret-down"></i>
+            <div id="a4" class="collapse ans-box">Maximum team size of 4 and a minimum of 2.</div>
+        </div>
+
+        <div class="qa-box collapsed" data-toggle="collapse" role="button" aria-expanded="false" data-target="#a5">
+            <a class="que-box">Should the team members be from the same institute?</a>
+            <i class="fas fa-caret-down"></i>
+            <div id="a5" class="collapse ans-box">Not necessary.</div>
+        </div>
+
+        <div class="qa-box collapsed" data-toggle="collapse" role="button" aria-expanded="false" data-target="#a6">
+            <a class="que-box">What if I am a lone warrior?</a>
+            <i class="fas fa-caret-down"></i>
+            <div id="a6" class="collapse ans-box">We cannot accomodate lone warriors.</div>
+        </div>
+
+        <div class="qa-box collapsed" data-toggle="collapse" role="button" aria-expanded="false" data-target="#a7">
+            <a class="que-box">What kind of assistance we will get?</a>
+            <i class="fas fa-caret-down"></i>
+            <div id="a7" class="collapse ans-box">All sort of technical support from awesome mentors.</div>
+        </div>
+
+        <!-- <div class="qa-box collapsed bg-danger" data-toggle="collapse" role="button" aria-expanded="false" data-target="#a8">
+        <a class="que-box">What should I bring?</a>
+        <i class="fas fa-caret-down"></i>
+        <div id="a8" class="collapse ans-box">A valid government issued photo ID and/or your college-issued photo ID, phone, laptop, chargers, an empty water bottle & ample of team spirit. You may also bring earphones/headphones if you wish (well music does play an important role). Besides, if you need any special hardware components, you can bring them along.</div>
+      </div> -->
+
+        <!-- <div class="qa-box collapsed bg-danger" data-toggle="collapse" role="button" aria-expanded="false" data-target="#a9">
+        <a class="que-box">What things will be provided?</a>
+        <i class="fas fa-caret-down"></i>
+        <div id="a9" class="collapse ans-box">Lodging, food, mattress for resting and internet access for the duration of the hackathon will be provided.</div>
+      </div> -->
+
+        <div class="qa-box collapsed" data-toggle="collapse" role="button" aria-expanded="false" data-target="#a10">
+            <a class="que-box">What will the participants get?</a>
+            <i class="fas fa-caret-down"></i>
+            <div id="a10" class="collapse ans-box">Knowledge, Experience, Guidance. Because these things are priceless :) Also, goodies from open source communities.</div>
+        </div>
+
+        <div class="qa-box collapsed" data-toggle="collapse" role="button" aria-expanded="false" data-target="#a11">
+            <a class="que-box">What will the winner get?</a>
+            <i class="fas fa-caret-down"></i>
+            <div id="a11" class="collapse ans-box">Knowledge, Experience, Guidance. Because these things are priceless :) Also, prizes of up to ₹10,000 and goodies from open source communities.</div>
+        </div>
+
+        <!-- <div class="qa-box collapsed bg-danger" data-toggle="collapse" role="button" aria-expanded="false" data-target="#a12">
+        <a class="que-box">Is it safe for female participants?</a>
+        <i class="fas fa-caret-down"></i>
+        <div id="a12" class="collapse ans-box">For sure. There will be other female organisers for the entire duration of 36 hours. Also, faculties will be present for the entire duration and the university has round the clock on-campus security services.</div>
+      </div> -->
+
+        <div class="qa-box collapsed" data-toggle="collapse" role="button" aria-expanded="false" data-target="#a13">
+            <a class="que-box">What is the selection process?</a>
+            <i class="fas fa-caret-down"></i>
+            <div id="a13" class="collapse ans-box">In the first phase, participants are shortlisted on the basis of their technical profile, the novelty and feasibility of the idea.</div>
+        </div>
+
+        <!-- <div class="qa-box collapsed bg-danger" data-toggle="collapse" role="button" aria-expanded="false" data-target="#a14">
+        <a class="que-box">What I shouldn't bring?</a>
+        <i class="fas fa-caret-down"></i>
+        <div id="a14" class="collapse ans-box">Drugs, Alcohol or any sort of weapons that can injure or are in any way harmful or addictive. If you are unsure, please ask us.</div>
+      </div> -->
+
+        <div class="qa-box collapsed" data-toggle="collapse" role="button" aria-expanded="false" data-target="#a15">
+            <a class="que-box">Do I have to be from IT/CE/EC to participate?</a>
+            <i class="fas fa-caret-down"></i>
+            <div id="a15" class="collapse ans-box">All branches are permitted. However, a background of basic coding is recommended.</div>
+        </div>
+
+        <!-- <div class="qa-box collapsed bg-danger" data-toggle="collapse" role="button" aria-expanded="false" data-target="#a16">
+        <a class="que-box">Can I leave the campus at night?</a>
+        <i class="fas fa-caret-down"></i>
+        <div id="a16" class="collapse ans-box">No, all participants will have to stay inside campus grounds.</div>
+      </div> -->
+
+        <!-- <div class="qa-box collapsed bg-danger" data-toggle="collapse" role="button" aria-expanded="false" data-target="#a17">
+        <a class="que-box">What are rules and location of the venue?</a>
+        <i class="fas fa-caret-down"></i>
+        <div id="a17" class="collapse ans-box"> The location will be inside Nirma University. No one will be allowed to leave the venue before completion of Hackathon, not even at night.</div>
+      </div> -->
+
+        <div class="qa-box collapsed" data-toggle="collapse" role="button" aria-expanded="false" data-target="#a18">
+            <a class="que-box">Can I start working on the hack beforehand?</a>
+            <i class="fas fa-caret-down"></i>
+            <div id="a18" class="collapse ans-box">No. The entire development of the project must begin and end during the time of the HackNUthon.</div>
+        </div>
+
+        <div class="qa-box collapsed" data-toggle="collapse" role="button" aria-expanded="false" data-target="#a20">
+            <a class="que-box">Code of Conduct</a>
+            <i class="fas fa-caret-down"></i>
+            <div id="a20" class="collapse ans-box">Code of conduct can be found <a href="https://devfolio.co/code-of-conduct" target="blank">here</a> </div>
+        </div>
+
+    </div>
+
+
+    <div id="loadFooter"></div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="script/common.js"></script>
+    <script src="script/faq.js"></script>
+</body>
+
+</html>

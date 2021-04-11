@@ -1,0 +1,44 @@
+/*==============================
+        Question Answers
+.   ================================*/
+
+.qa-box{
+    padding: 8px;
+    text-align: justify;
+    border-right: 1px solid #bdc3c7;
+    border-left: 1px solid #bdc3c7;
+}
+
+.que-box{
+    font-weight: 650;
+}
+
+.qa-box svg{
+    float: right;
+    font-size: 1.3em;
+    transform: rotateZ(180deg);
+    transition-duration: .5s;
+}
+
+.qa-box.collapsed svg{
+    transform: rotateZ(0deg);
+}
+
+.ans-box{
+    padding: 5px 10px;
+}
+
+.qa-box:nth-child(odd){
+    background-color: #bdc3c7;
+}
+
+
+.qa-box:first-child{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.qa-box:last-child{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
