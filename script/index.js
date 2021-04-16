@@ -21,7 +21,7 @@ $('document').ready(function() {
 //main countdown
 
 document.addEventListener('DOMContentLoaded', () => {
-    var timeOfHackathon = new Date(2021, 3, 17, 0, 0) / 1000;
+    var timeOfHackathon = new Date(2021, 3, 17, 10, 0) / 1000;
     // var flipdown = new FlipDown(timeOfHackathon, 'countdown-main').start();
     new FlipDown(timeOfHackathon, 'countdown-main', {
         theme: 'light'
