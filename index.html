@@ -3,36 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="google-site-verification" content="uOxSqZJAGkdany3RMSRcSBsG1kT0G684mqXlFyEFSH0" />
-    <meta name="description" content="HackNUthon 2020 | CSI | CSE Department | Nirma University" />
-
-    <!-- Cache control -->
-    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate, max-age=10000" />
-    <meta http-equiv="Pragma" content="no-cache must-revalidate" />
-    <!-- <meta http-equiv="Expires" content="0" /> -->
-
+    <title>HACKANUTHON'22</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-    <link rel="stylesheet" type="text/css" href="style/common.css">
-    <link rel="stylesheet" type="text/css" href="style/index.css">
-
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet">
-
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="styles/sponsors.css">
+    <link rel="stylesheet" href="styles/timeline.css">
+    <link rel="stylesheet" href="styles/prizes.css">
+    <link rel="stylesheet" href="styles/faq.css">
+    <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="plugins/flipdown-master/dist/flipdown.min.css">
     <script src="plugins/flipdown-master/dist/flipdown.min.js"></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="plugins/parallax.js-1.5.0/parallax.min.js"></script>
 
-    <script src="https://kit.fontawesome.com/68b6a34bd3.js" crossorigin="anonymous"></script>
-
-    <link rel="shortcut icon" href="images/nutech_logo_label.svg" type="image/x-icon">
-    <link rel="icon" href="images/tab_logo.svg" type="image/x-icon">
-
-    <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
-
-    <title>HackNUthon 2021 | CSI </title>
 </head>
 
 <body>
@@ -44,80 +36,82 @@
                     <img class="preloader-logo d-block mx-auto animated pulse infinite fast" style="opacity: 1;" src="images/logoFull.svg" alt="HackNUthon">
                 </div>
                 <div class="loader-animation mt-5">
-                    <div class='loader--dot'></div>
-                    <div class='loader--dot'></div>
-                    <div class='loader--dot'></div>
-                    <div class='loader--dot'></div>
-                    <div class='loader--dot'></div>
-                    <div class='loader--dot'></div>
+                    <div class='loader--dot'>L</div>
+                    <div class='loader--dot'>O</div>
+                    <div class='loader--dot'>A</div>
+                    <div class='loader--dot'>D</div>
+                    <div class='loader--dot'>I</div>
+                    <div class='loader--dot'>N</div>
+                    <div class='loader--dot'>G</div>
                     <div class='loader--text'></div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="navigationbar" class="navbar fixed-top navbar-expand-md navbar-dark">
 
-        <a id="main-logo-container" href="index.html">
-            <img id="main-logo" class="navbar-brand" src="images/logo.svg" alt="HackNUthon">
-        </a>
+    <div class="navnmenu">
+        <input type="checkbox" name="ham" id="ham">
+        <label for="ham">
+            <div class="hamburger">
+                <div class="ham-block"></div>
+                <div class="ham-block"></div>
+                <div class="ham-block"></div>
+                <div class="ham-block"></div>
+            </div>
+        </label>
+        <div class="navtitles">
+            <ul>
+                <li>
+                    <a href="#hero">Home</a>
+                </li>
+                <li>
+                    <a href="#about-us">About</a>
+                </li>
+                <li>
+                    <a href="#schedule">Timeline</a>
+                </li>
+                <li>
+                    <a href="#faq">FAQ</a>
+                </li>
+                <li>
+                    <a href="#sponsors">Sponsor</a>
+                </li>
+                <li>
+                    <a href="#footer">Contact Us</a>
+                </li>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-        <div id="navbarContent" class="collapse navbar-collapse rounded">
-            <ul class="navbar-nav ml-md-auto mr-md-5 text-center rounded">
-                <li class="nav-item mt-3 mt-md-auto">
-                    <a href="#hero" class="nav-link active nava navBottom">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about-us" class="nav-link nava navBottom">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#sponsors" class="nav-link nava navBottom">Sponsor</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#footer" class="nav-link nava navBottom">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                    <a href="faq.html" class="nav-link nava">FAQ</a>
-                </li>
             </ul>
         </div>
+
     </div>
 
-    <div id="hero" class="text-center one-page-section">
-        <div id="slider" data-parallax="scroll" data-image-src="images/Slider1.webp" data-z-index="0"></div>
+    <div id="hero" class="text-center ">
         <div id="heroSection">
             <div class="head-wrapper">
-                <p class="head d-none">Computer Society Of India<span><br/>Presents</span></p>
+                <p class="head">Computer Society Of India<span><br/>Presents</span></p>
             </div>
-            <img class="logo-hero d-none mx-auto my-3" src="images/logo.svg" alt="HackNUThon">
-            <!-- <img class="logo-hero d-none mx-auto my-3" src="images/logoFull.svg" alt="HackNUThon"> -->
-            <br>
+            <img class="logo-hero mx-auto my-3" src="images/logo.png" alt="HackNUThon" />
             <div class="head-wrapper">
-                <p class="head15 d-none">CSE Department, Nirma University</p>
+                <p class="head15">CSE Department, Nirma University</p>
             </div>
-            <br>
-            <p class="head2 d-none">17 - 18 April @Online</p>
-            <div>
-                <!-- <button id="devfolio-apply-now" class="hero-btn d-none m-2"><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff"viewBox="0 0 115.46 123.46" style="height:24px;width:24px;margin-right:8px"><path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" /><path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"/></svg>Apply with Devfolio</button> -->
-                <!-- <br class="d-md-none"> -->
-                <div style="padding-top: 30px;">
-                    <div class="apply-button hero-btn d-none" data-hackathon-slug="hacknuthon2021" data-button-theme="light" style="height: 44px; width: 312px"></div>
-                </div>
+            <p class="head15">23 - 24 April @Online</p>
+            <button class="hero-btn my-4">
+                <a href="devfolio.co">
+                    <img src="images/devfolio.svg" alt="devfolio"> Apply Now!
+                </a>
+              </button>
 
-                <!-- <br class="d-md-none"> -->
-                <a href="details.html"><button class="hero-btn">Details</button></a>
-                <!-- <a href="apply.html" class="hero-btn d-none nav-link btn btn-outline-primary navbtn">Apply Now</a> -->
-                <a href="https://discord.gg/zYPsZntE"><button class="hero-btn">Link to the Discord server!</button></a>
-            </div>
+            <button class="hero-btn my-3">
+                    <a href="https://discord.gg/zYPsZntE">
+                    Link to the Discord server!
+                </a>
+                </button>
         </div>
     </div>
 
 
-    <div id="countdown-container1" class="mx-auto d-none d-md-block">
+    <div id="countdown-container1" class="mx-auto my-4 d-md-block">
         <div id="countdown-container2" class="row">
             <div class="container text-center countdown-title">Countdown for HackNUthon</div>
             <div id="countdown-main" class="flipdown mx-md-auto"></div>
@@ -125,251 +119,421 @@
     </div>
 
 
-    <div id="about-us" class="container-fluid one-page-section">
-        <div id="intro-box">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h1 class="text-center animated addzoomIn title-sec d-inline-block">About Us</h1>
-                </div>
-            </div>
-            <div id="intro" class="row">
-                <div class="col-12 col-md-4 my-md-auto">
-                    <img src="images/logoFull.svg" class="img-fluid p-5 animated addfadeInLeft" alt="HackNUthon logo">
-                </div>
-                <div class="col-12 col-md-8 p-5 ">
-                    <h2 class="sub-title animated addfadeInRight">What is HackNUthon?</h2>
-                    <div class="w-100">&nbsp;</div>
-                    <p class="animated addfadeInRight text-justify pr-md-5">
-                        Rapidly rising Innovation and Entrepreneurship in India made us organize the HackNUThon 2021, a stage to discover technologies, innovate ideas and solve various challenges. A non-stop, 36 hours long, a challenging product development competition, where
-                        participants can come up with their problem statements or they will be given the problem statements for innovative solutions to the respective problems. Prizes upto Rs.85,000 for winners and get cool goodies from our partners to
-                        all participants! Its gonna be an real tough challenge! Can you beat through it? If you think you can, you’re halfway there! Give it a Go!
-                    </p>
-                    <h2 class="sub-title animated addfadeInRight">Total Prizes :- </h2>
-                    <pre class="animated addfadeInRight text-justify pr-md-5">
-                        
-1st Place :- ₹5,000/-
-
-2nd Place:- ₹3,000/-
-
-3rd Place:- ₹2,000/-
-
-Best Beginner Hack:- ₹2,000/-
-
-Most Pretty Hack:- ₹1,500/-
-
-Polygon Prize :- 
-₹10,000 for the best hack built on Ethereum, or
-₹15,000 for the best hack built on Ethereum + Polygon and internship/recruitment opportunities
-
-Wolfram Prizes:- Prizes worth 375 USD to all winners and perks of 25 USD to all participants
-
-Portis Prize :-
-₹15,000 for best D-app built on Portis
-
-Celo Prize:-
-₹20,000  for best D-app built on Celo
-
-Tezos Prize:-
-₹20,000  for best D-app built on Tezos
-
-Best All- girls Team (Best hack amongst all the girl teams will be given the prize):- ₹1,500/-
-
-#Onemillionwallet Prize:- A special track at Hack-NU-Thon to build your own crypto wallet the way you want.<br>Interesting hacks can win from a pool of USD 15,000|~ 10L INR (in AVAX) and an internship opportunity as well!
-
-
-                    </pre>
-                </div>
-            </div>
-        </div>
-
-        <div id="timeline" class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h1 class="text-center animated addzoomIn title-sec d-inline-block">Time Line</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="main-timeline5">
-                        <div class="timeline">
-                            <div class="timeline-icon"><span class="year">9 April</span></div>
-                            <div class="timeline-content">
-                                <h3 class="title">Registration Starts</h3>
-                                <p class="description">
-                                    All the students would register with their names and contact information alongwith their idea.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-icon"><span class="year">16 April</span></div>
-                            <div class="timeline-content">
-                                <h3 class="title">Registration Close</h3>
-                                <p class="description">
-                                    After this, the ideas registered will be shortlisted by the CSI board and faculty advisors
-                                </p>
-                            </div>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-icon"><span class="year">17 April</sup></span></div>
-                            <div class="timeline-content">
-                                <h3 class="title">HackNUthon Day</h3>
-                                <p class="description">
-                                    On this day the hackathon will begin in the morning.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-icon"><span class="year">18 April</span></div>
-                            <div class="timeline-content">
-                                <h3 class="title">Result Day</h3>
-                                <p class="description">
-                                    Ending Ceremony and a talk with Young Youtube Sensation Aman Dhattarwal.
-                                </p>
-                            </div>
-                        </div>
+    <div id="about-us" class="container-fluid one-page-section mb-5">
+        <div class="about-container w-100 mx-5">
+            <div id="carouselExampleControls" class="carousel mx-0 w-25" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="images/corousel/gallery1.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/corousel/gallery2.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/corousel/gallery3.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/corousel/gallery4.jpg" alt="Third slide">
                     </div>
                 </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div id="about-content" class="w-75 mx-5">
+                <h2 class="mx-5">
+                    What is HackNUThon?
+                </h2>
+                <p class="mx-5">Rapidly rising Innovation and Entrepreneurship in India made us organize the HackNUThon 2021, a stage to discover technologies, innovate ideas and solve various challenges. A non-stop, 36 hours long, a challenging product development competition,
+                    where participants can come up with their problem statements or they will be given the problem statements for innovative solutions to the respective problems. Prizes upto Rs.85,000 for winners and get cool goodies from our partners
+                    to all participants! Its gonna be an real tough challenge! Can you beat through it? If you think you can, you’re halfway there! Give it a Go!</p>
             </div>
         </div>
-
     </div>
+    <div id="prizes" class="container-fluid one-page-section">
+        <h1>Prizes</h1>
+        <section class="cards-main-cont">
+            <div class="card-cont">
+                <div class="card-main">
+                    <div class="content">
+                        <div class="imgBx">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2583/2583381.png">
+                        </div>
+                        <div class="contentBx">
+                            <h3>1<sup style="text-transform: lowercase;">st</sup> Prize</h3>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li>5000 INR</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-cont">
+                <div class="card-main">
+                    <div class="content">
+                        <div class="imgBx">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2583/2583350.png">
+                        </div>
+                        <div class="contentBx">
+                            <h3>2<sup style="text-transform: lowercase;">nd</sup> Prize</h3>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li>3000 INR</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-cont">
+                <div class="card-main">
+                    <div class="content">
+                        <div class="imgBx">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2583/2583448.png">
+                        </div>
+                        <div class="contentBx">
+                            <h3>3<sup style="text-transform: lowercase;">rd</sup> Prize</h3>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li>2000 INR</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="timeline-main" id="schedule">
+        <h1>Timeline Of Events</h1>
+        <div class="date-links">
+            <button id="day1" class="active">23<sup>th</sup>April</button>
+            <button id="day2">24<sup>th</sup>April</button>
+        </div>
+        <div class="timeline-container">
 
+            <div id="timeline" class="timeline">
+                <ul>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">23th april, 2022</h3>
+                            <h1>8:00 am</h1>
+                            <p>Opening Ceremony</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">23th april, 2022</h3>
+                            <h1>08:30 am</h1>
+                            <p>Hackathon Briefing</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">23th april, 2022</h3>
+                            <h1>09:00 am</h1>
+                            <p>Hacking Begins</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">23th april, 2022</h3>
+                            <h1>11:00 am</h1>
+                            <p>Speaker Session</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">23th april, 2022</h3>
+                            <h1>01:00 pm</h1>
+                            <p>Lunch Break</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">23th april, 2022</h3>
+                            <h1>02:00 pm</h1>
+                            <p>Hacking Continues</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">23th april, 2022</h3>
+                            <h1>06:00 pm</h1>
+                            <p>Mentoring Session</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">23th april, 2022</h3>
+                            <h1>08:00 pm</h1>
+                            <p>Dinner Break</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">23th april, 2022</h3>
+                            <h1>09:00 pm</h1>
+                            <p>Fun Events</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="timeline2" class="timeline2">
 
+                <ul>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">24th april, 2022</h3>
+                            <h1>08:00 am</h1>
+                            <p>Hacking Continues</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">24th april, 2022</h3>
+                            <h1>10:00 am</h1>
+                            <p>Workshop</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">24th april, 2022</h3>
+                            <h1>12:00 pm </h1>
+                            <p>Mentoring Session - 2</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">24th april, 2022</h3>
+                            <h1>01:30 pm</h1>
+                            <p>Lunch Break</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">24th april, 2022</h3>
+                            <h1>02:30 pm</h1>
+                            <p>Hacking Continues</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">24th april, 2022</h3>
+                            <h1>05:30 pm</h1>
+                            <p>Judging Session</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">24th april, 2022</h3>
+                            <h1>07:30 pm</h1>
+                            <p>Closing Ceremony</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
 
-    <div id="gallery" class="container-fluid">
+        </div>
+    </section>
+    <section class="faq" id="faq">
+        <h1 class="heading">FAQ</h1>
         <div class="row">
-            <div class="col-12 text-center">
-                <h1 class="text-center animated addzoomIn title-sec d-inline-block">Gallery</h1>
+            <div class="acccontainer">
+                <div class="acc">
+                    <div class="accheader">
+                        <span>+</span>
+                        <h3>What is a hackathon?</h3>
+                    </div>
+                    <div class="accbody">
+                        <p>As the name says, its a marathon for a hack. A hackathon can be best described as an “invention marathon”, or in simple words, hackathons are about bringing your crazy ideas to reality, through technology. It’s an event where anyone,
+                            regardless of their individual field can come & participate to learn, build & share their creations, in a relaxed & productive environment.</p>
+                    </div>
+                </div>
+
+                <div class="acc">
+                    <div class="accheader">
+                        <span>+</span>
+                        <h3>How big a team can be?</h3>
+                    </div>
+                    <div class="accbody">
+                        <p>The maximum team size is four but one man army are also welcome. Participants can also team up on the discord server. You can connect with other participants there and can find a team for yourself.</p>
+                    </div>
+                </div>
+
+                <div class="acc">
+                    <div class="accheader">
+                        <span>+</span>
+                        <h3>Do I need to have any specific qualifications to be a participant for the hackathon?</h3>
+                    </div>
+                    <div class="accbody">
+                        <p>If you love to innovate, you are more than welcome to participate in the hackathon.</p>
+                    </div>
+                </div>
+
+                <div class="acc">
+                    <div class="accheader">
+                        <span>+</span>
+                        <h3>Is there any registration fees for participation?</h3>
+                    </div>
+                    <div class="accbody">
+                        <p>We don't want to monetize learning, community, and innovation. So, there's no participation/registration fees.</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="g-img-box row mx-auto">
-            <div class="s-img-box col-12 col-md-6">
-                <div class="s-img-box2">
-                    <img class="g-img img-fluid" src="images/gallery1.jpg" alt="img1">
-                    <div class="overlay">
-                        <img src="images/logo.svg" alt="logo" class="img-fluid my-auto g-overlay-img">
-                    </div>
+    </section>
+    </section>
+    <div id="sponsors" class="one-page-section sponsor-container">
+        <h1 class="heading">Sponsors</h1>
+        <h1 class="underline" style="text-align: center;">Title Sponsors</h1>
+        <div class="title-sponsors">
+            <a href="https://www.hackerearth.com/">
+                <div class="sponsor-row">
+                    <img class="logo_alignment" src="images/hackerearth.svg">
+                    <h5 class="logo_content">Remotely hiring the best tech talent</h5>
                 </div>
+            </a>
+            <div class="sponsor-row">
+                <a href="https://www.hackerearth.com/"><img class="logo_alignment" src="images/hackerearth.svg"></a>
+                <h5 class="logo_content">Remotely hiring the best tech talent</h5>
             </div>
-            <div class="s-img-box col-12 col-md-6">
-                <div class="s-img-box2">
-                    <img class="g-img img-fluid" src="images/gallery2.jpg" alt="img2">
-                    <div class="overlay">
-                        <img src="images/logo.svg" alt="logo" class="img-fluid my-auto g-overlay-img">
-                    </div>
+        </div>
+
+        <div class="platinum-container">
+            <h1 class="underline" style="text-align:center;">Platinum Sponsors</h1>
+            <div class="plat-sponsors">
+                <div class="sponsor-row">
+                    <a href="https://www.hackerearth.com/"><img class="logo_alignment" src="images/hackerearth.svg"></a>
+                    <h5 class="logo_content">Remotely hiring the best tech talent</h5>
                 </div>
-            </div>
-            <div class="s-img-box col-12 col-md-6">
-                <div class="s-img-box2">
-                    <img class="g-img img-fluid" src="images/gallery3.jpg" alt="img3">
-                    <div class="overlay">
-                        <img src="images/logo.svg" alt="logo" class="img-fluid my-auto g-overlay-img">
-                    </div>
+                <div class="sponsor-row">
+                    <a href="https://www.hackerearth.com/"><img class="logo_alignment" src="images/hackerearth.svg"></a>
+                    <h5 class="logo_content">Remotely hiring the best tech talent</h5>
                 </div>
-            </div>
-            <div class="s-img-box col-12 col-md-6">
-                <div class="s-img-box2">
-                    <img class="g-img img-fluid" src="images/gallery4.jpg" alt="img4">
-                    <div class="overlay">
-                        <img src="images/logo.svg" alt="logo" class="img-fluid my-auto g-overlay-img">
-                    </div>
+                <div class="sponsor-row">
+                    <a href="https://www.hackerearth.com/"><img class="logo_alignment" src="images/hackerearth.svg"></a>
+                    <h5 class="logo_content">Remotely hiring the best tech talent</h5>
+                </div>
+                <div class="sponsor-row">
+                    <a href="https://www.hackerearth.com/"><img class="logo_alignment" src="images/hackerearth.svg"></a>
+                    <h5 class="logo_content">Remotely hiring the best tech talent</h5>
+                </div>
+                <div class="sponsor-row">
+                    <a href="https://www.hackerearth.com/"><img class="logo_alignment" src="images/hackerearth.svg"></a>
+                    <h5 class="logo_content">Remotely hiring the best tech talent</h5>
+                </div>
+                <div class=" sponsor-row">
+                    <a href="https://www.hackerearth.com/"><img class="logo_alignment" src="images/hackerearth.svg"></a>
+                    <h5 class="logo_content">Remotely hiring the best tech talent</h5>
                 </div>
             </div>
         </div>
+
+        <div class="gold-container">
+            <h1 class="underline" style="text-align:center;">Gold Sponsors</h1>
+            <div class="gold-sponsors">
+                <div class="sponsor-row">
+                    <a href="https://www.hackerearth.com/"><img class="logo_alignment" src="images/hackerearth.svg"></a>
+                    <h5 class="logo_content">Remotely hiring the best tech talent</h5>
+                </div>
+                <div class="sponsor-row">
+                    <a href="https://www.hackerearth.com/"><img class="logo_alignment" src="images/hackerearth.svg"></a>
+                    <h5 class="logo_content">Remotely hiring the best tech talent</h5>
+                </div>
+                <div class="sponsor-row">
+                    <a href="https://www.hackerearth.com/"><img class="logo_alignment" src="images/hackerearth.svg"></a>
+                    <h5 class="logo_content">Remotely hiring the best tech talent</h5>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
     </div>
 
-
-
-    <div id="sponsors" class="one-page-section">
-        <div class="container-fluid p-md-4">
+    <div id="loadFooter">
+        <div id="footer" class="container-fluid pt-md-4 px-md-2 pt-5 one-page-section">
             <div class="row">
-                <div class="col-12 text-center">
-                    <h1 class="text-center animated addzoomIn title-sec d-inline-block">Sponsors</h1>
+                <div id="footer-logo" class="col-12 col-md-4 px-5 py-3 text-center my-md-auto">
+                    <img src="images/logoFull.svg" class="img-fluid">
                 </div>
-            </div>
-
-            <div class="row p-md-5 sponsor-row">
-                <div class="container col-12 mt-0 sponsor-subtitle">
-                    <span>Title Sponsors</span>
-                </div>
-                <div class="container col-12 col-md-6 my-1">
-                    <a href="https://devfolio.co/" target="blankDevfolio">
-                        <img src="images/devfolioSized.jpg" alt="Sponsor name" class="img-fluid py-5 py-md-0">
+                <div class="container d-block d-md-none seperator w-75 mx-auto">&nbsp;</div>
+                <div class="col-12 col-md-4 py-3 pt-md-0 text-center text-md-left">
+                    <h2>CONTACT US</h2>
+                    <p>
+                        <div>
+                            Mukund Agarwal <br/>
+                            <i class="fas fa-phone-alt"></i>
+                            <a href="tel:+919106718032">
+                      +919106718032
                     </a>
+                            <br/>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:20BCE1679@nirmauni.ac.in">
+                                20BCE1679@nirmauni.ac.in
+                    </a>
+                        </div>
+                        <br/>
+                        <div>
+                            Vatsal Rabadia<br/>
+                            <i class="fas fa-phone-alt"></i>
+                            <a href="tel:+918141586514">
+                      +918141586514
+                    </a>
+                            <br/>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:20BIC052@nirmauni.ac.in">
+                                20BIC052@nirmauni.ac.in
+                    </a>
+                        </div>
+                        <br>
+                        <div>
+                            Arunima Barik <br/>
+                            <i class="fas fa-phone-alt"></i>
+                            <a href="tel:+919558818536">
+                      +919558818536
+                    </a>
+                            <br/>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:20BCE016@nirmauni.ac.in">
+                    20BCE016@nirmauni.ac.in
+                    </a>
+                        </div>
+                    </p>
                 </div>
-                <div class="container col-12 col-md-6 my-1">
-                    <img src="images/codeAsylums.jpg" alt="Sponsor name" class="img-fluid py-5 py-md-0">
-                </div>
-                <div class="container col-12 sponsor-subtitle">
-                    <span>Platinum Sponsors</span>
-                    <div class="container col-12 col-md-4 py-2">
-                        <a href="https://www.portis.io/" target="blankPortis">
-                            <img align:center; src="images/portisLogoSized.jpg" alt="Sponsor name" class="img-fluid px-4 py-2">
+                <div class="container d-block d-md-none seperator w-75 mx-auto">&nbsp;</div>
+
+                <div id="social_links" class="col-12 col-md-4 py-3 pt-md-0 text-center text-md-left">
+                    <div class="mb-5" style="font-size: 30px; text-decoration: none; color: white;">
+                        <a href="#">
+                            <h1 class="register-now">REGISTER NOW!!</h1>
                         </a>
                     </div>
-                </div>
-                <div class="container col-12 col-md-4 py-2">
-                        <a href=" https://www.onemillionwallets.com/lumoslabs" target="blankPortis">
-                            <img align:center; src="images/lumos2.png" alt="Sponsor name" class="img-fluid px-4 py-2">
+                    <h2>FOLLOW US ON</h2>
+                    <div style="font-size: 30px; color: white;">
+                        <a href="https://twitter.com/csinirma" target="_blank" class="mx-1">
+                            <i style="color: #1D9BF0;" class="fab fa-twitter"></i>
                         </a>
+
+                        <a href="https://www.instagram.com/csiitnu/" target="_blank" class="mx-1">
+                            <i style="color: #bc2a8d;" class="fab fa-instagram"></i>
+                        </a>
+
+                        <a href="https://www.facebook.com/csinu" target="_blank" class="mx-1">
+                            <i style="color: #006EFF;" class="fab fa-facebook"></i>
+                        </a>
+
                     </div>
-                <div class="container col-12 col-md-6 my-1">
-                    <a href="https://polygon.technology/" target="blankPortis">
-                        <img align:center; src="images/Portis_Logo-Colored@2x.png" alt="Sponsor name" class="img-fluid px-4 py-2">
-                    </a>
                 </div>
-                <div class="container col-12 col-md-6 my-1">
-                    <a href="https://tezos.com" target="blankPortis">
-                        <img align:center; src="images/Tezos_Logo-Colored@2x.png" alt="Sponsor name" class="img-fluid px-4 py-2">
-                    </a>
-                </div>
-                <div class="container col-12 col-md-6 my-1">
-                    <a href="https://celo.org" target="blankPortis">
-                        <img align:center; src="images/Celo Logo Color@2x.png" alt="Sponsor name" class="img-fluid px-4 py-2">
-                    </a>
-                </div>
-                 <div class="container col-12 col-md-6 my-1">
-                    <a href="https://www.wolfram.com/technologies/" target="blankPortis">
-                        <img align:center; src="images/wolfram.png" alt="Sponsor name" class="img-fluid px-4 py-2">
-                    </a>
-                </div>
-
-                 <div class="container col-12 sponsor-subtitle">
-                    <span>Gold Sponsors</span>
-                </div>
-                <div class="container col-12 col-md-4 py-2">
-                    <a href="https://www.taskade.com/" target="blankMatic">
-                        <img src="images/taskade.jpeg" alt="Sponsor name" height="200px" width="200px" class="img-fluid px-4 py-2">
-                    </a>
-                </div>
-                <div class="container col-12 col-md-4 py-2">
-                    <a href="https://balsamiq.com/" class="blankFold">
-                        <img src="images/balsmiq.png" alt="Sponsor name" class="img-fluid px-4 py-2">
-                    </a>
-                </div> 
-                <div class="container col-12 col-md-4 py-2">
-                    <a href="http://www.aichamp.in" class="blankFold">
-                        <img src="images/ai.png" alt="Sponsor name" height="200px" width="200px" class="img-fluid px-4 py-2">
-                    </a>
-                </div> 
-                 
-
+                <div class="container d-block d-md-none seperator w-75 mx-auto">&nbsp;</div>
             </div>
+
         </div>
     </div>
-    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.144684114672!2d72.54266211480288!3d23.128386184899565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e832f45125167%3A0x876cb1cb23c25bdb!2sNirma%20University!5e0!3m2!1sen!2sin!4v1582997324582!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe> -->
 
-    <div id="loadFooter"></div>
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-
-    <script src="script/common.js"></script>
-    <script src="script/index.js"></script>
-
-    <script src="plugins/parallax.js-1.5.0/parallax.min.js"></script>
 </body>
+<script src="scripts/index.js"></script>
 
 </html>
