@@ -39,7 +39,7 @@
     align-items: center;
     justify-content: center;
     width: 400px;
-    height: 100%;
+    height: 300px;
     background-color: #3bc8dbd7;
     border-radius: 20px;
     box-shadow: 0 8px 10px rgba(105, 105, 105, 1);
@@ -69,4 +69,16 @@
     transition: all ease-in-out 0.2s;
     transform: scale(1.2);
     top: -50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .domain-card {
+        padding: 5% 7%;
+    }
+    .domain-card h2 {
+        margin-top: 25px;
+    }
+    .domain-img img {
+        padding: 7%;
+    }
 }

@@ -96,6 +96,12 @@
     box-shadow: 0 3px 3px rgba(105, 105, 105, 1);
 }
 
+.sponsor-row a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .logo_alignment {
     transition: all 0.3s ease;
 }
