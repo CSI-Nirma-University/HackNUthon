@@ -10,7 +10,7 @@ $('document').ready(function() {
 //main countdown
 
 document.addEventListener('DOMContentLoaded', () => {
-    var timeOfHackathon = new Date(2022, 3, 23, 10, 0) / 1000;
+    var timeOfHackathon = new Date(2022, 3, 23, 08, 30) / 1000;
     // var flipdown = new FlipDown(timeOfHackathon, 'countdown-main').start();
     new FlipDown(timeOfHackathon, 'countdown-main', {
         theme: 'dark'
