@@ -138,4 +138,9 @@
         transform: translateY(0px);
         opacity: 1;
     }
+    .card-cont:nth-child(7) .card-main:hover .content,
+    .card-cont:nth-child(8) .card-main:hover .content,
+    .card-cont:nth-child(9) .card-main:hover .content {
+        transform: translateY(0px);
+    }
 }
