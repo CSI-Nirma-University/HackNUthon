@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     var timeOfHackathon = new Date(2022, 3, 23, 10, 0) / 1000;
     // var flipdown = new FlipDown(timeOfHackathon, 'countdown-main').start();
     new FlipDown(timeOfHackathon, 'countdown-main', {
-        theme: 'light'
+        theme: 'dark'
     }).start();
 });
 

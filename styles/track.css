@@ -1,4 +1,4 @@
-.domains {
+.track-prize {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.domains>h1 {
+.track-prize>h1 {
     padding: 30px;
     width: 350px;
     height: 50px;
@@ -21,7 +21,7 @@
     box-shadow: 0 8px 10px rgba(105, 105, 105, 1);
 }
 
-.domain-main {
+.track-main {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -29,7 +29,7 @@
     align-items: center;
 }
 
-.domain-card {
+.track-card {
     margin: 50px 50px;
     padding: 3%;
     padding-top: 40px;
@@ -38,15 +38,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 450px;
     background-color: #3bc8dbd7;
     border-radius: 20px;
     box-shadow: 0 8px 10px rgba(105, 105, 105, 1);
     cursor: pointer;
 }
 
-.domain-img {
+.track-img {
     position: absolute;
     top: -40px;
     padding: 3%;
@@ -55,30 +55,30 @@
     box-shadow: 0 8px 10px rgba(105, 105, 105, 1);
 }
 
-.domain-img img {
+.track-img img {
     width: 50px;
     height: 50px;
 }
 
-.domain-card:hover {
-    transition: transform ease-in-out 0.3s;
-    transform: scale(1.1);
+.track-content {
+    font-size: larger;
 }
 
-.domain-card:hover .domain-img {
-    transition: all ease-in-out 0.2s;
-    transform: scale(1.2);
-    top: -50px;
+.track-content li {
+    font-weight: bolder;
+    margin-top: 15px;
+    list-style: none;
 }
 
 @media only screen and (max-width: 768px) {
-    .domain-card {
+    .track-card {
         padding: 5% 7%;
+        height: 550px;
     }
-    .domain-card h2 {
+    .track-card h2 {
         margin-top: 25px;
     }
-    .domain-img img {
+    .track-img img {
         padding: 7%;
     }
 }

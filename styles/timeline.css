@@ -12,7 +12,7 @@
     width: 550px;
     height: 50px;
     margin-bottom: 20px;
-    color: #38D9A9;
+    color: #e0e0e0;
     background-color: #111;
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@
     display: inline-block;
     border: 0;
     border-radius: 10px;
-    border: 2px solid #3BC9DB;
+    border: 2px solid;
     padding: 1rem 1rem;
     width: 200px;
     margin: 10px;
@@ -100,10 +100,12 @@
 .timeline ul li,
 .timeline2 ul li {
     padding: 20px;
-    background-color: #1e1f22;
+    background-color: #3BC9DB;
     color: white;
     border-radius: 10px;
     margin-bottom: 20px;
+    box-shadow: 0 8px 10px rgba(105, 105, 105, 1);
+    cursor: pointer;
 }
 
 .timeline ul li:last-child,
@@ -116,7 +118,7 @@
     font-size: 25px;
     line-height: 30px;
     margin-bottom: 10px;
-    background-color: #1e1f22;
+    background-color: #3BC9DB;
     text-align: left;
 }
 
@@ -205,6 +207,6 @@
     }
     .timeline ul li:hover::before,
     .timeline2 ul li:hover::before {
-        background-color: #3BC9DB;
+        background-color: #111;
     }
 }

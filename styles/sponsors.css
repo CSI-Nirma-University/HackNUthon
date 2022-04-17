@@ -5,6 +5,7 @@
 
 .sponsor-container,
 .platinum-container,
+.domain-container,
 .gold-container {
     width: 100%;
     display: flex;
@@ -14,6 +15,7 @@
 }
 
 .platinum-container,
+.domain-container,
 .gold-container {
     margin-top: 150px;
 }
@@ -23,7 +25,7 @@
     width: 350px;
     height: 50px;
     margin-bottom: 20px;
-    color: #38D9A9;
+    color: #e0e0e0;
     background-color: #111;
     display: flex;
     justify-content: center;
@@ -60,6 +62,7 @@
 
 .title-sponsors,
 .plat-sponsors,
+.domain-sponsors,
 .gold-sponsors {
     display: flex;
     align-items: center;
@@ -71,6 +74,7 @@
 
 .title-sponsors a,
 .plat-sponsors a,
+.domain-sponsors a,
 .gold-sponsors a {
     text-decoration: none;
 }
@@ -107,10 +111,12 @@
 }
 
 .sponsor-row:hover .logo_alignment {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .logo_content {
+    padding: 2%;
+    text-align: center;
     margin-top: 15px;
     font-size: 16px;
     color: transparent;
