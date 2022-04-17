@@ -67,6 +67,12 @@
     transform: translateY(-20px);
 }
 
+.card-cont:nth-child(7) .card-main:hover .content,
+.card-cont:nth-child(8) .card-main:hover .content,
+.card-cont:nth-child(9) .card-main:hover .content {
+    transform: translateY(0px);
+}
+
 .card-cont .card-main .content .imgBx {
     position: relative;
     width: 150px;
@@ -94,10 +100,8 @@
     line-height: 1.1em;
 }
 
-.card-cont .card-main .content .contentBx h3 span {
-    font-size: 12px;
-    font-weight: 300;
-    text-transform: initial;
+.card-cont .card-main .content .contentBx h3 b {
+    font-weight: 700;
 }
 
 .card-cont .card-main .sci {
